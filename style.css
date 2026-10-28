@@ -1,0 +1,19 @@
+:root{--bg:#120c0a;--panel:#1c1310;--ink:#efe4d0;--dim:#b9a88f;--ember:#f07a2a;--line:#3a2a22}
+*{box-sizing:border-box}html{background:var(--bg)}body{margin:0;color:var(--ink);font:17px/1.6 Georgia,'Times New Roman',serif}
+.wrap{max-width:980px;margin:0 auto;padding:28px 22px 80px}
+header.top{display:flex;align-items:center;gap:16px;padding-bottom:18px;border-bottom:1px solid var(--line)}
+header.top img{width:64px;height:64px;border-radius:50%}
+.brand{font-family:'American Typewriter','Courier New',monospace;letter-spacing:.12em;font-size:20px;color:var(--ink);text-decoration:none}
+.brand small{display:block;letter-spacing:.02em;font-size:14px;color:var(--dim);font-family:Georgia,serif}
+h1,h2,h3{font-family:'American Typewriter','Courier New',monospace;font-weight:normal;letter-spacing:.04em}
+h1{font-size:34px;margin:34px 0 6px}h2{font-size:23px;margin:46px 0 12px;color:var(--ember)}h3{font-size:18px;margin:26px 0 8px}
+p.lede{color:var(--dim);margin-top:0}a{color:#ffb070}a:hover{color:#fff}
+table{width:100%;border-collapse:collapse;font-size:15px;margin:10px 0 18px}
+th,td{text-align:left;vertical-align:top;padding:9px 10px;border-bottom:1px solid var(--line);overflow-wrap:anywhere}th{color:var(--dim);font-weight:normal;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+tr:nth-child(even) td{background:rgba(255,255,255,.015)}td.id{white-space:nowrap;color:var(--dim);font-size:13px}
+.badge{display:inline-block;font-size:12px;padding:1px 7px;border-radius:9px;border:1px solid var(--ember);color:var(--ember);margin-left:6px;white-space:nowrap}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:16px 0}
+.ep{display:block;text-decoration:none;color:var(--ink)}.ep:hover{border-color:var(--ember)}.ep .meta{color:var(--dim);font-size:14px}
+footer{margin-top:60px;padding-top:16px;border-top:1px solid var(--line);color:var(--dim);font-size:14px}
+nav.toc a{margin-right:14px;font-size:15px;white-space:nowrap}
+@media (max-width:640px){body{font-size:16px}td.id{white-space:normal}th:nth-child(4),td:nth-child(4){display:none}}
